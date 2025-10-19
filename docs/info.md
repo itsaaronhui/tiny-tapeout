@@ -8,13 +8,12 @@ You can also include images in this folder and reference them in the markdown. E
 -->
 
 ## How it works
-
-Explain how your project works
+This design implements basic digital logic gates — NOT, NOR, and NAND — to produce an output pattern forming the ASCII representation of the letter A. When an input signal is applied to ui[0], the logic chain processes the signal through the configured NOT, NOR, and NAND gates. The resulting high/low output levels on uo[0] and uo[1] correspond to the predefined bit pattern that, when observed on a connected LED array or logic analyzer, visually represents the letter A.
 
 ## How to test
 
-Explain how to use your project
+Connect the Tiny Tapeout board to power and clock (10 kHz). Apply a logic high (1) or low (0) to the input pin ui[0]. Observe the output signals on uo[0] (NOR) and uo[1] (NAND). If connected to an LED matrix or viewer, the pattern displayed should correspond to the letter A. Optionally, use a logic analyzer to verify the expected high/low logic states on each output.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+None needed 
